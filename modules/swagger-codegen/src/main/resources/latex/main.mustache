@@ -91,7 +91,7 @@ arc=0pt,outer arc=0pt,
      		\rowcolor[gray]{0.5} 
      		\multirow{1}{*}{\color{white}Parameter} & \color{white}Description & \color{white}Default Value & \color{white}Data type \\ \hline
      		{{#pathParams}}	
-     			\multirow{1}{*}{ {{paramName}} } & {{description}} & {{#defaultValue}}{{{defaultValue}}}{{/defaultValue}} & {{dataType}} \\ \hline
+     			\multirow{1}{*}{ {{paramName}} } & {{{description}}} & {{#defaultValue}}{{{defaultValue}}}{{/defaultValue}} & {{dataType}} \\ \hline
  			{{/pathParams}}
  		\end{tabular}
 		\end{table}	
@@ -116,7 +116,7 @@ arc=0pt,outer arc=0pt,
      		\rowcolor[gray]{0.5} 
      		\multirow{1}{*}{\color{white}Parameter} & \color{white}Description & \color{white}Default Value & \color{white}Data type \\ \hline
      		{{#bodyParams}}	
-     			\multirow{1}{*}{ {{paramName}} } & {{description}} & {{#defaultValue}}{{{defaultValue}}}{{/defaultValue}} & {{dataType}} \\ \hline
+     			\multirow{1}{*}{ {{paramName}} } & {{{description}}} & {{#defaultValue}}{{{defaultValue}}}{{/defaultValue}} & {{dataType}} \\ \hline
  			{{/bodyParams}}
  		\end{tabular}
 		\end{table}
@@ -126,7 +126,7 @@ arc=0pt,outer arc=0pt,
         \subsection{Request headers}
     	\begin{itemize}
  			{{#headerParam}}
- 				\item { {{paramName}} - {{description}} - {{#defaultValue}}default: {{{defaultValue}}}{{/defaultValue}} - {{dataType}} }
+ 				\item { {{paramName}} - {{{description}}} - {{#defaultValue}}default: {{{defaultValue}}}{{/defaultValue}} - {{dataType}} }
       		{{/headerParam}}
       	\end{itemize}
     {{/hasHeaderParam}}
@@ -140,7 +140,7 @@ arc=0pt,outer arc=0pt,
      		\rowcolor[gray]{0.5} 
      		\multirow{1}{*}{\color{white}Parameter} & \color{white}Description & \color{white}Default Value & \color{white}Data type \\ \hline
      		{{#queryParams}}	
-     			\multirow{1}{*}{ {{paramName}} } & {{description}} & {{#defaultValue}}{{{defaultValue}}}{{/defaultValue}} & {{dataType}} \\ \hline
+     			\multirow{1}{*}{ {{paramName}} } & {{{description}}} & {{#defaultValue}}{{{defaultValue}}}{{/defaultValue}} & {{dataType}} \\ \hline
  			{{/queryParams}}
  		\end{tabular}
 		\end{table}
@@ -155,7 +155,7 @@ arc=0pt,outer arc=0pt,
      		\rowcolor[gray]{0.5} 
      		\multirow{1}{*}{\color{white}Parameter} & \color{white}Description & \color{white}Default Value & \color{white}Data type \\ \hline
      		{{#formParams}}	
-     			\multirow{1}{*}{ {{paramName}} } & {{description}} & {{#defaultValue}}{{{defaultValue}}}{{/defaultValue}} & {{dataType}} \\ \hline
+     			\multirow{1}{*}{ {{paramName}} } & {{{description}}} & {{#defaultValue}}{{{defaultValue}}}{{/defaultValue}} & {{dataType}} \\ \hline
  			{{/formParams}}
  		\end{tabular}
 		\end{table}
